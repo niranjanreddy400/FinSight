@@ -76,6 +76,19 @@ finsight-app/
 
 ## 🚦 Getting Started
 
+### Demo Mode (No Setup Required)
+
+You can test the application immediately using demo credentials:
+
+- **Email**: `demo@finsight.app`
+- **Password**: `demo123456`
+
+Demo mode includes:
+- Pre-populated sample transactions
+- All features working locally
+- No Firebase setup required
+- Perfect for testing and evaluation
+
 ### Prerequisites
 - Node.js (v18 or higher)
 - Python 3.11+
@@ -91,7 +104,7 @@ finsight-app/
    ```
 
 2. **Install dependencies**
-   ```bash
+2. **Configure environment variables** (Skip for demo mode):
    npm install
    ```
 
@@ -120,6 +133,10 @@ finsight-app/
    ```bash
    npm run dev
    ```
+
+4. **Access the application**:
+   - Open http://localhost:5173
+   - Use demo credentials or set up Firebase for full functionality
 
 ### Backend Setup
 
